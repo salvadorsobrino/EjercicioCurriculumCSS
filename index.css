@@ -1,7 +1,7 @@
 /* Hoja de estilo index */
 * {
     /*Da bordes y coloca los elementos pegados a la ventana*/
-    /*outline: 1px solid rgb(255, 0, 0);*/
+    outline: 1px solid rgb(255, 0, 0);
     margin: 0;
     padding: 0;
 }
@@ -200,7 +200,7 @@ body {
     width: 100%;
     /*border-color: rgb(0, 0, 0);
     border-style: solid;*/
-    background-image: url("/fondo.jpg");
+    background-image: url("fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -214,6 +214,7 @@ footer {
     /*border-color: rgb(0, 0, 0);
     border-style: solid;*/
     width: 100%;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -272,36 +273,40 @@ a:active {
         /* Para Firefox*/
         background: -webkit-linear-gradient(left, rgb(255, 94, 0), orange, white);
         /* Para Chromium*/
+        font-size: 1;
     }
 
     #cajafoto {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
     }
    
-
     #introduccion {
-        margin-left: 180px;
+        padding-top: 20px;
+        margin-left: 28%;
+    }
+    .contacto {
+        margin-left: 10px;
     }
     .estudios{
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 60px;
     }
     .experiencia{
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 75px;
     }
 
     .habilidades{
-        margin-left: 260px;
+        margin-left: 210px;
         margin-top: -900px;
 
     }
     .aptitudes{
-        margin-left: 260px;
+        margin-left: 210px;
         margin-top: 10px;
     }
     footer{
-        margin-top: 500px;
+        margin-top: 600px;
     }
 }
