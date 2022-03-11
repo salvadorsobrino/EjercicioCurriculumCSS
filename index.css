@@ -1,7 +1,7 @@
 /* Hoja de estilo index */
 * {
     /*Da bordes y coloca los elementos pegados a la ventana*/
-    outline: 1px solid rgb(255, 0, 0);
+    /*outline: 1px solid rgb(255, 0, 0);*/
     margin: 0;
     padding: 0;
 }
